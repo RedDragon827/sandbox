@@ -1,0 +1,78 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(198, 183, 183);
+}
+
+h1 {
+  float: left;
+  margin: 25px;
+  padding: 25px;
+}
+
+img {
+  float: left;
+  width: 10%;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  text-align: left;
+  position: relative;
+  top: 150px;
+  right: 300px;
+}
+
+.navigation a,
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+footer a:hover,
+.navigation a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.summary {
+  margin-top: 200px;
+  background-color: rgb(168, 46, 46);
+  padding: 10px;
+  border: 2px solid black;
+  color: rgb(161, 161, 161);
+}
+
+.product {
+  background-color: rgb(168, 46, 46);
+  padding: 10px;
+  border: 2px solid black;
+  color: rgb(161, 161, 161);
+}
+
+/*contact*/
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+label {
+  width: 100px;
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+}
